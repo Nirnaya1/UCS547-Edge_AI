@@ -1,0 +1,30 @@
+Points to remember: notebook 1 python course
+1. How to use jit,njit when njit will not work.
+2. Why numba gives acceleration (diagram).
+3. When will code run on gpu not show acceleration.
+4. How to call function with device variables.
+5. How to copy back data to host.
+6. Using vectorize with cuda.
+7. Calling a function on gpu from another function running on gpu.
+8. can functions running on gpu have a return type.
+
+
+Points to remember: notebook 2 python course
+1. Thread block stride synchronize concept in cuda, how to call the function.
+2. Atomic operations.
+
+Points to remember: notebook 3 python course
+1. Memory access(coalesced/uncoalesced).
+2. Shared memory and their conflicts.
+
+
+Questions from c++ course
+1. What function do i use to allocate memory directly to the GPU?
+  cudaMallocManaged: unified memory causes page faults whenever CPU or GPU tries to access any data...transfers the data and then continues execution.
+  use cudaPrefetchAssyn()
+2. Use of default and non-default streams.
+3. Synchronize between streams/kernels.
+  
+In questions that you need to implement the conditions will be spelled. You have to apply accordingly. 
+
+Write an accelerated code such that k1,k3 runs parallely, k2,k5 runs parallely.k4 runs after all

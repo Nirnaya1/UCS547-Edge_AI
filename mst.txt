@@ -1,0 +1,31 @@
+MST syllabus question pattern and type of questions
+
+35 marks...... 5 questions, 7 marks each ( 2 case studies, 1 cpp, 1 numba,1 python nvidia course)
+syllabus: Image basics
+	  Image Transformation (log,gamma)
+	  Image Filtering (smoothing and edge filters)
+	  Acceleration with python numba
+	  Nvidia course fundamentals of acceleration using c++
+	  Nvidia course fundamentals of acceleration using python
+	  
+	  
+	  
+a. using python implement an accelerated convolution filter operation which smooths the image if the local mean is> global mean else leave it as it is
+b. Using c++ code implement matrix multiplication on gpu
+c. You need to detect cars at night time, however you have images which are taken in proper lighting.How do you proceed?
+
+	  
+	  
+	  
+
+Q. I want to build a face recognition system I have a setup to collect images
+   constraints: a. my setup does not restrict the subject to stand at a fixed position during image capture 
+		b. My face recognition algorithm only works with frontal straight faces 
+   Help me build the system.
+	
+Q. Can you take a picture of this room and replace the board and projector sheet with beautiful pictures.
+
+Q. In a cloth industry you have three types of cloth patterns help develop a vision based algorithm to sort them in three piles
+
+Q. Create an application where whenever you take a selfie the application automatically remembers the people in it. Additionally it gives options of different lighting enhancements. 
+   However when you choose any only the people are enhanced 
