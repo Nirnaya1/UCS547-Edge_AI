@@ -27,4 +27,4 @@ Questions from c++ course
   
 In questions that you need to implement the conditions will be spelled. You have to apply accordingly. 
 
-Write an accelerated code such that k1,k3 runs parallely, k2,k5 runs parallely.k4 runs after all
+Write an accelerated code such that k1,k3 runs parallely, k2,k5 runs parallely.k4 runs after all the other kernels are done running.
